@@ -1,0 +1,52 @@
+.container{
+   font-family: "Poppins";
+}
+.navbar-container{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style-type: none;  
+    font-size: 20px;
+    padding-right: 300px; 
+    color: hsl(0deg 0% 72%); 
+}
+.list li{
+    display: flex;
+    padding-right: 80px;
+}
+.list li:hover{
+    color: black;
+}
+
+.nav-button{
+    display: flex;
+    background-color: hsl(243deg 38% 52%);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px 32px;
+}
+.heading-text{
+    font-size: 105px;
+    padding-left: 68px;
+    margin: 25px;
+    color: hsl(256deg 34% 28%);
+}
+.heading-text span{
+    color: hsl(243deg 38% 52%);
+}
+.description{
+    font-size: 26px;
+    padding-left: 100px;
+    padding-right: 250px;
+    color: hsl(0deg 0% 59%);
+}
+.nav-button.btn{
+    margin-left: 270px;
+}
+.banner-container{
+    display: flex;
+}
